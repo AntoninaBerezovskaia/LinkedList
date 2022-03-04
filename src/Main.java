@@ -10,7 +10,9 @@ public class Main {
         firstList.insertNodeAtPosition(new Node("A"), 0);
         firstList.insertNodeAtPosition(new Node("B"), 1);
         firstList.insertNodeAtPosition(new Node("C"), 2);
-        firstList.insertNodeAtPosition(new Node("G"), 6);
+        firstList.insertNodeAtPosition(new Node("D"), 3);
+        firstList.insertNodeAtPosition(new Node("G"), 7);
+
 
         firstList.print();
     }
