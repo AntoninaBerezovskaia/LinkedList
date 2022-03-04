@@ -13,6 +13,7 @@ public class LinkedList {
     public void insertNodeAtPosition(Node node, int position) {
         if (position == 0) insertNewRoot(node);
         else if (position == size) append(node);
+        else if (size <= position ) System.out.println("Choose a position for "+ node.getValue() +" within the List\n-------------------------------------");
         else insert(node, position);
     }
 
@@ -50,6 +51,7 @@ public class LinkedList {
             }
             walker = walker.getNextNode();
         }
+
 
         return walker;
     }
